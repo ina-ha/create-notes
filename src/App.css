@@ -61,7 +61,7 @@ input {
 .notes {
     width: 100%;
     min-height: 300px;
-    margin-top: 30px;
+    
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -71,11 +71,15 @@ input {
 
 .note {
     width: 300px;
-    background-color: #6EC4D8;
+    
     min-height: 100px; 
     font-size: 1.5rem;
     margin: 20px 10px 0 10px;
     border-radius: 5px;
+}
+
+.note-body {
+    background-color: #6EC4D8;
     box-shadow: 0 4px 8px 0 #cccccc65;
 }
 
@@ -113,6 +117,53 @@ input {
     
 }
 
+.note-popMenu {
+visibility: hidden;
+
+
+    
+}
+
+.note-popMenu-active {
+
+background-color: white;
+}
+
+.icon-color {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.blue {
+    fill: #60b2c4;
+}
+
+.blue:hover {fill: #5eacbd; }
+
+
+.yellow {
+    fill: #FFF7C0;
+}
+
+.yellow:hover {
+    fill: #f8efae;
+}
+
+.salmon {
+    fill:#FA7C92;
+}
+
+.salmon:hover {
+    fill:#f76d84;
+}
+
+.green {
+    fill: #66AB8C;
+}
+
+.green:hover {
+    fill: rgb(80, 170, 129);
+}
 
 @media screen and (max-width: 710px) and (min-width: 600px) {
     .note {

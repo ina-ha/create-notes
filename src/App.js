@@ -21,7 +21,7 @@ function App() {
     <main>
      <InputField toAddNote={toAddNote}/>
      <div className='notes'>
-      {notes.map((note) => <div className='note'><Note toRemoveNote={toRemoveNote} note={note} /></div>)}
+      {notes.map((note) => <div><Note toRemoveNote={toRemoveNote} note={note} /></div>)}
      </div>
      <div className='remove'>
      <button className='btn' onClick={removeAll}>Remove all</button>
