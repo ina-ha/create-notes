@@ -12,21 +12,25 @@ function Note(props) {
 const handleYellow = () => {
   setColor("#FFF7C0");
   setTopColor("#f8efae");
+  setPop(!pop);
 }
 
 const handleBlue = () => {
   setColor("#6EC4D8");
   setTopColor("#60b2c4");
+  setPop(!pop);
 }
   
 const handleSalmon = () => {
   setColor("#FA7C92");
   setTopColor("#f76d84");
+  setPop(!pop);
 }
 
 const handleGreen = () => {
   setColor("#66AB8C");
   setTopColor("#51a881");
+  setPop(!pop);
 }
 
   const handleClick = () => {
