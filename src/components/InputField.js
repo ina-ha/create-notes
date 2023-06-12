@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { defineId } from './Functions';
+import "../App.css";
 
 function InputField(props) {
 const [text, setText] = useState("");
@@ -17,11 +18,17 @@ const handleSubmit = (event) => {event.preventDefault();
 
   return (
     <div>
-        <form onSubmit={handleSubmit}>
+        <form className="add" onSubmit={handleSubmit}>
+            
+            <div className="add-bar">
             <input type='text' onChange={handleChange} value={text} placeholder='Type here'></input>
-            <button type='submit'>Add</button>
+            </div>
+            <div>
+            <button className='btn' type='submit'>Add</button>
+            </div>
             
         </form>
+    
     </div>
   )
 }

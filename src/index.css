@@ -8,36 +8,7 @@
   margin: 0;
   padding: 0;
   color: #333;
-  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-body {
-  margin: 0;
-  font-family: 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.container {
-  max-width: 1240px;
-  margin: auto;
-}
-
-
-
-.btn:active {
-  transform: translate(4px);
-  box-shadow: 0px 0px 1px rgba(0,0,0,.2);
-  border-bottom: none;
-}
-
+body { background-color: white;}
